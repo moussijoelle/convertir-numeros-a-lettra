@@ -1,27 +1,26 @@
-﻿# Convertir números a letras
+# Convertir números a letras
 
-Pasa un número del 0 al 10 a su nombre en español.
+Del 0 al 10, el número pasa a palabra en español.
 
 ## Qué hace
 
 - Formulario con un número
-- Muestra la palabra (cero… diez)
+- Respuesta tipo “En letras: siete”
 - Resumen en `resumen.html`
 
 ## Cómo probarlo
 
-Abre `index.html` o la demo.
+Abre `index.html`.
 
 Demo: https://moussijoelle.github.io/convertir-numeros-a-lettra/
 
 ## Cómo lo construí
 
-- HTML + JavaScript (array de palabras en `js/`)
-- Validación de entero entre 0 y 10
+Array de palabras en `js/` e índice = número. Si te sales de 0–10, avisa.
 
 ## Cómo verificarlo
 
-Sin tests. Pruebo 0, 5, 10 y un valor fuera de rango.
+0, 10 y un 15 (debe fallar).
 
 ---
 
